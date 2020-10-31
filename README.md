@@ -43,10 +43,10 @@ $ ngspice 6Tcell_read.sp
 **-> Write Operation**
   
 ```
-$ ngspice cell6T_write.cir
+$ ngspice 6Tcell_write.sp
 ```
 
-![](https://github.com/yash-k99/vsdsram/blob/master/Waveforms/Prelayout/cell_write.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6Tcell_write.png)
 
 ### 6T Cell Stability
 
@@ -55,13 +55,13 @@ The stability and writability of the cell are quantified by the hold margin, rea
 
 **1. Hold SNM**
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/holdsnm.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/HoldSNM.png)
 
 ```
-$ ngspice holdsnm.cir
+$ ngspice holdsnm.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/holdsnm.PNG)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/hold%20snm.png)  
 By fitting a square in the upper and lower loop, we get SNMh = 0.91V and SNMl = 0.61V respectively.  
 Hold SNM = min (SNMh, SNMl) = 0.61V
 
