@@ -201,7 +201,7 @@ $ ngspice 1_bit_cell_write.sp
 
 
 # Contact Information  
-* Chandra Shekhar Srivastava, M.Tech Embedded System and VLSI,NSIT New Delhi, chandrashekhar.srivastava@gmail.com
+* Chandra Shekhar Srivastava, M.Tech Embedded System and VLSI,NSUT New Delhi, chandrashekhar.srivastava@gmail.com
 * Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 * Philipp Gühring, Software Architect, LibreSilicon Assocation - pg@futureware.at
 
