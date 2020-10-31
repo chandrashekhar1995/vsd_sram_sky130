@@ -165,23 +165,23 @@ $ ngspice d_ff_pos_edge.sp
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Dff.png)
 
 ### 1-Bit SRAM  
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/1bitsram.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1bitsram_arch.png)
 
 **-> Read Operation**
 
 ```
-$ ngspice 1bitsram_read.cir
+$ ngspice 1_bit_cell_read.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/1bit_read.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1bit%20cell%20read.png)
 
 **-> Write Operation**  
   
 ```
-$ ngspice 1bitsram_write.cir
+$ ngspice 1_bit_cell_write.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/1bit_write.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1%20bit%20cell%20write.png)
 
 # Acknowledgements 
 * Yash Kumar, B.E. Electronics, Fr. Conceicao Rodrigues College of Engineering, Mumbai - laryash99@gmail.com
