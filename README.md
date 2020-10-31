@@ -25,8 +25,10 @@ $  sudo apt install -y git
 $  git clone https://github.com/chandrashekhar1995/SRAM
 $  cd SRAM
 $  git clone https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_fd_pr
-$  cd Spice\ Files\
+$  cd Spice\ Files/
 ```
+Before Running any simluation,make sure that the path of your library file is updated in the spice files.
+
 
 ### 1. 6T Cell
 
@@ -191,7 +193,7 @@ $ ngspice 1_bit_cell_write.sp
 
 # Acknowledgements 
 * Yash Kumar, B.E. Electronics, Fr. Conceicao Rodrigues College of Engineering, Mumbai - laryash99@gmail.com
-* Reuel Reuben, Undergraduate Student, BVPCOE reuel992000@gmail.com
+* Reuel Reuben, Undergraduate Student, BVPCOE,reuel992000@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
 * Penumarthi Aishwarya,M.tech Embedded Systems, NIT Jamshedpur,aishwarya.penumarthi@gmail.com
 * Philipp Gühring, Software Architect, LibreSilicon Assocation
