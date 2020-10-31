@@ -10,7 +10,7 @@ This project aims to develop a 1024 *32 (4kB) SRAM with supply voltage 1.8V and 
 
 # Custom Cells Required for OpenRAM 
 
-![](https://github.com/chandrashekhar1995/SRAM/tree/main/Diagrams/OpenRam.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/OpenRam.png)
 
 * SRAM Bit cell  
 * Sense Amplifier  
