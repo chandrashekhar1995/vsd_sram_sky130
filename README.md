@@ -70,8 +70,8 @@ $ ngspice holdsnm.sp
 ```
 
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/HoldSNM.png)  
-By fitting a square in the upper and lower loop, we get SNMh = () and SNMl = () respectively.  
-Hold SNM = min (SNMh, SNMl) = ()
+By fitting a square in the upper and lower loop, we get SNMh = 0.78V and SNMl = 0.67V respectively.  
+Hold SNM = min (SNMh, SNMl) = 0.67V
 
 **2. Read SNM**
 
@@ -83,7 +83,7 @@ $ ngspice readsnm.sp
 
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/ReadSNM.png)  
 Similarly,  
-Read SNM = min (SNMh, SNMl) = ()
+Read SNM = min (SNMh, SNMl) = 0.38V
 
 **3. Write SNM**
 
@@ -95,7 +95,7 @@ $ ngspice writesnm.sp
 
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/WriteSNM.png)  
 By fitting the smallest square between the two curves, we get  
-Write SNM = ()
+Write SNM = 0.79V
 
 #### **-> N-Curve**  
 
@@ -111,18 +111,18 @@ $ ngspice ncurve.sp
 **Read Stability Metrics**    
 
 **Static Voltage Noise Margin (SVNM)** - It is the maximum tolerable dc noise voltage at internal nodes of the bitcell before its content flips and it is measured as the difference between point C and point A.  
-SVNM = ()
+SVNM = 0.630 V
 
 **Static Current Noise Margin (SINM)** - It is the maximum tolerable dc noise current injected at internal nodes of the bitcell before its content changes and it is denoted by point B.  
-SINM = ()
+SINM = 272.92 uA
 
 **Write Stability Metrics**
 
 **Write Trip Voltage (WTV)** - It is the minimum voltage drop needed to change the internal nodes of the bitcell and it is measured as the difference between point E and point C.  
-WTV = ()
+WTV = 0.946 V
 
 **Write Trip Current (WTI)** - It is the minimum amount of current needed to write the bitcell and it denoted by point D.  
-WTI = ()
+WTI = -29.17 uA
 
 ### 2. Sense Amplifier
 
