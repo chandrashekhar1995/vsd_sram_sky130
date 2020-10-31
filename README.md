@@ -43,6 +43,10 @@ $ ngspice 6Tcell_read.sp
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6T_read.png)
 
 **-> Write Operation**
+
+
+
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6T_Cell_write.png)
   
 ```
 $ ngspice 6Tcell_write.sp
