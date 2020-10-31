@@ -67,7 +67,7 @@ The stability and writability of the cell are quantified by the hold margin, rea
 $ ngspice holdsnm.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/hold%20snm.png)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/HoldSNM.png)  
 By fitting a square in the upper and lower loop, we get SNMh = () and SNMl = () respectively.  
 Hold SNM = min (SNMh, SNMl) = ()
 
@@ -79,7 +79,7 @@ Hold SNM = min (SNMh, SNMl) = ()
 $ ngspice readsnm.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Readsnm.png)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/ReadSNM.png)  
 Similarly,  
 Read SNM = min (SNMh, SNMl) = ()
 
@@ -91,7 +91,7 @@ Read SNM = min (SNMh, SNMl) = ()
 $ ngspice writesnm.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Writesnm.png)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/WriteSNM.png)  
 By fitting the smallest square between the two curves, we get  
 Write SNM = ()
 
@@ -105,7 +105,7 @@ N-curve provides the current flow information along with the voltage metrics whi
 $ ngspice ncurve.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Ncurve.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/N-Curve.png)
 **Read Stability Metrics**    
 
 **Static Voltage Noise Margin (SVNM)** - It is the maximum tolerable dc noise voltage at internal nodes of the bitcell before its content flips and it is measured as the difference between point C and point A.  
@@ -132,7 +132,7 @@ Run the netlist file using the following command:
 $ ngspice Sense_amplifier.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/sense%20amplifier.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Sense_Amplifier.png)
 
 ### 3. Write Driver
 
@@ -144,7 +144,7 @@ Run the netlist file using the following command:
 $ ngspice driver.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/driver.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Write_Driver.png)
 
 ### 4. Tristate Buffer
 
@@ -156,7 +156,7 @@ Run the netlist file using the following command:
 $ ngspice tri_state_buff_test.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/tristate%20buffer.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Tristate_Buffer.png)
 
 ### 5. Positive Edge Triggered DFF
 
@@ -168,7 +168,7 @@ Run the netlist file using the following command:
 $ ngspice d_ff_pos_edge.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Dff.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/dff.png)
 
 ### 1-Bit SRAM  
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1bitsram_arch.png)
@@ -179,7 +179,7 @@ $ ngspice d_ff_pos_edge.sp
 $ ngspice 1_bit_cell_read.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1bit%20cell%20read.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1-bit_cell_read.png)
 
 **-> Write Operation**  
   
@@ -187,7 +187,7 @@ $ ngspice 1_bit_cell_read.sp
 $ ngspice 1_bit_cell_write.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1%20bit%20cell%20write.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/1-bit_cell_write.png)
 
 # Acknowledgements 
 * Yash Kumar, B.E. Electronics, Fr. Conceicao Rodrigues College of Engineering, Mumbai - laryash99@gmail.com
