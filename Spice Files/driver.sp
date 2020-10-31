@@ -2,7 +2,8 @@ Write Driver with Precharge
 
 .param temp=27
 
-.lib "/home/chandra/ngspice-nghdl/6T_SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
+**update the path
+.lib "/../../SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
 
 x7 1 din gnd gnd sky130_fd_pr__nfet_01v8 w=0.42 l=.15 m=1
 x8 1 din vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=.15 m=1
