@@ -10,7 +10,7 @@ This project aims to develop a 1024 *32 (4kB) SRAM with supply voltage 1.8V and 
 
 # Custom Cells Required for OpenRAM 
 
-![](https://github.com/yash-k99/vsdsram/blob/master/Diagrams/OpenRam.png)
+![](https://github.com/chandrashekhar1995/SRAM/tree/main/Diagrams/OpenRam.png)
 
 * SRAM Bit cell  
 * Sense Amplifier  
@@ -22,21 +22,23 @@ This project aims to develop a 1024 *32 (4kB) SRAM with supply voltage 1.8V and 
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.  
 ```
 $  sudo apt install -y git
-$  git clone https://github.com/yash-k33/vsdsram
-$  cd vsdsram/Simulation/Prelayout
+$  git clone https://github.com/chandrashekhar1995/SRAM
+$  cd SRAM
+$  git clone https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_fd_pr
+$  cd Spice\ Files\
 ```
 
 ### 1. 6T Cell
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/6Tcell.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/6T%20Cell%20(2).bmp)
 
 **-> Read Operation**  
 
 ```
-$ ngspice cell6T_read.cir
+$ ngspice 6Tcell_read.sp
 ```
 
-![](https://github.com/yash-k99/vsdsram/blob/master/Waveforms/Prelayout/cell_read.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6T_read.png)
 
 **-> Write Operation**
   
