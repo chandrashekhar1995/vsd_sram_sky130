@@ -62,107 +62,107 @@ $ ngspice holdsnm.sp
 ```
 
 ![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/hold%20snm.png)  
-By fitting a square in the upper and lower loop, we get SNMh = 0.91V and SNMl = 0.61V respectively.  
-Hold SNM = min (SNMh, SNMl) = 0.61V
+By fitting a square in the upper and lower loop, we get SNMh = () and SNMl = () respectively.  
+Hold SNM = min (SNMh, SNMl) = ()
 
 **2. Read SNM**
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/readsnm.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Read_SNM.png)
 
 ```
-$ ngspice readsnm.cir
+$ ngspice readsnm.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/readsnm.PNG)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Readsnm.png)  
 Similarly,  
-Read SNM = min (SNMh, SNMl) = min (0.48V, 0.39V) = 0.39V
+Read SNM = min (SNMh, SNMl) = ()
 
 **3. Write SNM**
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/writesnm.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Write%20SNM.png)
 
 ```
-$ ngspice writesnm.cir
+$ ngspice writesnm.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/writesnm.PNG)  
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Writesnm.png)  
 By fitting the smallest square between the two curves, we get  
-Write SNM = 1.065V
+Write SNM = ()
 
 #### **-> N-Curve**  
 
 N-curve provides the current flow information along with the voltage metrics which is equally important for an overall analysis of cell stability.    
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/ncurve.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/N_Curve.png)
 
 ```
-$ ngspice ncurve.cir
+$ ngspice ncurve.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/ncurve.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Ncurve.png)
 **Read Stability Metrics**    
 
 **Static Voltage Noise Margin (SVNM)** - It is the maximum tolerable dc noise voltage at internal nodes of the bitcell before its content flips and it is measured as the difference between point C and point A.  
-SVNM = 0.617V
+SVNM = ()
 
 **Static Current Noise Margin (SINM)** - It is the maximum tolerable dc noise current injected at internal nodes of the bitcell before its content changes and it is denoted by point B.  
-SINM = 255.67uA
+SINM = ()
 
 **Write Stability Metrics**
 
 **Write Trip Voltage (WTV)** - It is the minimum voltage drop needed to change the internal nodes of the bitcell and it is measured as the difference between point E and point C.  
-WTV = 0.988V
+WTV = ()
 
 **Write Trip Current (WTI)** - It is the minimum amount of current needed to write the bitcell and it denoted by point D.  
-WTI = -53.47uA
+WTI = ()
 
 ### 2. Sense Amplifier
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/senseamp.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Sense%20Amplifier.bmp)
 
 Run the netlist file using the following command:
 
 ``` 
-$ ngspice senseamp.cir
+$ ngspice Sense_amplifier.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/senseamp.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/sense%20amplifier.png)
 
 ### 3. Write Driver
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/writedriver.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Write%20Driver.bmp)
 
 Run the netlist file using the following command:
 
 ```
-$ ngspice writedriver.cir
+$ ngspice driver.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/writedriver.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/driver.png)
 
 ### 4. Tristate Buffer
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/tristate.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Tri-State%20Buffer.png)
 
 Run the netlist file using the following command:
 
 ```
-$ ngspice tristatebuff.cir
+$ ngspice tri_state_buff_test.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/tristate.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/tristate%20buffer.png)
 
 ### 5. Positive Edge Triggered DFF
 
-![](https://github.com/yash-k99/sram/blob/master/Diagrams/dff.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Circuit%20Diagrams/Dff.bmp)
 
 Run the netlist file using the following command:
 
 ```
-$ ngspice dff.cir
+$ ngspice d_ff_pos_edge.sp
 ```
 
-![](https://github.com/yash-k99/sram/blob/master/Waveforms/Prelayout/dff.PNG)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/Dff.png)
 
 ### 1-Bit SRAM  
 ![](https://github.com/yash-k99/sram/blob/master/Diagrams/1bitsram.PNG)
