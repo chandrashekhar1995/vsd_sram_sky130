@@ -2,7 +2,8 @@
 
 .param temp=27
 
-.lib "/home/chandra/ngspice-nghdl/6T_SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
+**update the path
+.lib "/../../SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
 
 
 *inverter 1
