@@ -107,7 +107,7 @@ N-curve provides the current flow information along with the voltage metrics whi
 $ ngspice ncurve.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/N-Curve.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/ncurve.png)
 **Read Stability Metrics**    
 
 **Static Voltage Noise Margin (SVNM)** - It is the maximum tolerable dc noise voltage at internal nodes of the bitcell before its content flips and it is measured as the difference between point C and point A.  
