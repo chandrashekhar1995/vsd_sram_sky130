@@ -52,7 +52,7 @@ $ ngspice 6Tcell_read.sp
 $ ngspice 6Tcell_write.sp
 ```
 
-![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6Tcell_write.png)
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6T_Cell_Write.png)
 
 ### 6T Cell Stability
 
