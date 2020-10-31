@@ -34,6 +34,8 @@ $  cd Spice\ Files\
 
 **-> Read Operation**  
 
+![](https://github.com/chandrashekhar1995/SRAM/blob/main/Diagrams/6T_Cell_read.png)
+
 ```
 $ ngspice 6Tcell_read.sp
 ```
