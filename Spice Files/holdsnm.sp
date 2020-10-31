@@ -1,6 +1,7 @@
 Hold SNM
 
-.lib "/home/chandra/ngspice-nghdl/6T_SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
+**update the path
+.lib "/../../SRAM/sky130_fd_pr/models/sky130.lib.spice" tt
 
 *inverter 1
 x1 qb1 q1 gnd gnd sky130_fd_pr__nfet_01v8 w=0.84 l=.15 m=1
